@@ -7,6 +7,7 @@ import lxc
 name = "mak_test"
 template = "debian"
 
+
 def create_container(CONTAINER_NAME, TEMPLATE):
     """initalizating new container
 
