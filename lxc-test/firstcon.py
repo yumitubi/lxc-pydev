@@ -4,8 +4,8 @@
 import lxc
 
 
-CONTAINER_NAME = "mak_test"
-TEMPLATE = "debian"
+name = "mak_test"
+template = "debian"
 
 def create_container(CONTAINER_NAME, TEMPLATE):
     """initalizating new container
@@ -24,4 +24,4 @@ def create_container(CONTAINER_NAME, TEMPLATE):
 
 
 if __name__ == '__main__':
-    create_container()
+    create_container(name, template)
